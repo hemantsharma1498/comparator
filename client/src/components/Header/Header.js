@@ -3,16 +3,17 @@ import './Header.css'
 
 function Header(props) {
   return (
-    <div className='Header'>
+    <section className='Header'>
+        {/* <img src="../../../public/logo.png" alt="NSJ Logo" /> */}
         <h1 id='feed-title'>
-            Your News
+            NEW STREET JOURNAL
         </h1>
         <div className='Right-material'>
             <p id='user-name'>{props.name}</p>  
             <button id='log-toggle'>Logout</button> 
         </div>
         
-    </div>
+    </section>
   )
 }
 
