@@ -1,13 +1,12 @@
 import React from 'react'
-import './Footer.css'
 
 function Footer(props) {
   return (
     <section className='Footer'>
-        <h1 id='footer-main'>
+        <h1 >
             The New Streets Journal
         </h1>
-        <p id='footer-descriptor'>
+        <p >
             Property of Coterie Group.
         </p>
         {/* <div className='Right-material'>
