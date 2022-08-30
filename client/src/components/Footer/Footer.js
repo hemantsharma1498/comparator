@@ -2,11 +2,11 @@ import React from 'react'
 
 function Footer(props) {
   return (
-    <section className='Footer'>
-        <h1 >
+    <section className="text-black bg-lmgray fixed bottom-0 inset-x-0 p-3">
+        <h1 className="flex justify-center">
             The New Streets Journal
         </h1>
-        <p >
+        <p className="flex justify-center">
             Property of Coterie Group.
         </p>
         {/* <div className='Right-material'>

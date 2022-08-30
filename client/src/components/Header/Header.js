@@ -2,9 +2,7 @@ import React from 'react'
 
 function Header(props) {
   return (
-    <section className="text-black bg-dgray">
-        {/* <img src="../../../public/logo.png" alt="NSJ Logo" /> */}
-        
+    <section className="text-black bg-lgray">        
         
         {/* MAIN TEXT AND USER LOGIN/LOGOUT */}
         <div className="flex items-center justify-center p-6">
@@ -13,41 +11,39 @@ function Header(props) {
           </h1>
           <div className="absolute right-20 mt-2 px-5 rounded-md shadow-lg py-1 bg-lmgray" >
               <p>{props.name}</p>  
-              <button className="border-2 border-solid border-black rounded-md ">Logout</button> 
+              <button className="border-2 border-solid border-lmgray rounded-md ">Logout</button> 
           </div>
 
         </div>
         
 
         {/* NAVBAR */}
-        <nav className="inline">
-        <ul>
-          <li>
+        <nav className="flex justify-center pb-2 ">
+          <div className="px-2 hover:bg-lmgray">
             Home
-          </li>
-          <li>
+          </div>
+          <div className="px-2 hover:bg-lmgray">
             World
-          </li>
-          <li>
+          </div>
+          <div className="px-2 hover:bg-lmgray">
             India
-          </li>
-          <li>
+          </div>
+          <div className="px-2 hover:bg-lmgray">
             Politics
-          </li>
-          <li>
+          </div>
+          <div className="px-2 hover:bg-lmgray">
             Economy
-          </li>
-          <li>
+          </div>
+          <div className="px-2 hover:bg-lmgray">
             Markets
-          </li>
-          <li>
+          </div>
+          <div className="px-2 hover:bg-lmgray">
             Opinion
-          </li>
-          <li>
+          </div>
+          <div className="px-2 hover:bg-lmgray">
             Real Estate
-          </li>
-        </ul>
-
+          </div>
+        
       </nav>
 
         
