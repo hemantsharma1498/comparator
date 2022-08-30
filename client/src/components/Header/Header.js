@@ -19,28 +19,28 @@ function Header(props) {
 
         {/* NAVBAR */}
         <nav className="flex justify-center pb-2 ">
-          <div className="px-2 hover:bg-lmgray">
+          <div className="px-2 hover:bg-lmgray transition-all ease-in-out delay-75">
             Home
           </div>
-          <div className="px-2 hover:bg-lmgray">
+          <div className="px-2 hover:bg-lmgray transition-all ease-in-out delay-75">
             World
           </div>
-          <div className="px-2 hover:bg-lmgray">
+          <div className="px-2 hover:bg-lmgray transition-all ease-in-out delay-75">
             India
           </div>
-          <div className="px-2 hover:bg-lmgray">
+          <div className="px-2 hover:bg-lmgray transition-all ease-in-out delay-75">
             Politics
           </div>
-          <div className="px-2 hover:bg-lmgray">
+          <div className="px-2 hover:bg-lmgray transition-all ease-in-out delay-75">
             Economy
           </div>
-          <div className="px-2 hover:bg-lmgray">
+          <div className="px-2 hover:bg-lmgray transition-all ease-in-out delay-75">
             Markets
           </div>
-          <div className="px-2 hover:bg-lmgray">
+          <div className="px-2 hover:bg-lmgray transition-all ease-in-out delay-75">
             Opinion
           </div>
-          <div className="px-2 hover:bg-lmgray">
+          <div className="px-2 hover:bg-lmgray transition-all ease-in-out delay-75">
             Real Estate
           </div>
         

@@ -12,8 +12,8 @@ function Feed() {
       
       {/* MAIN NEWS GRID */}
       <div className="bg-white flex justify-center w-4/6  grid-cols-3">
-        <p className="text-3xl">
-          SOME PURE ABSOLUTE BULLSHIT
+        <p className="text-3xl pt-3">
+          SOME PURE ABSOLUTE 
         </p>  
       </div>
 
