@@ -7,7 +7,7 @@ function Footer(props) {
             The New Street Journal
         </h1>
         <p className="flex justify-center">
-            Property of Coterie Group. All Rights Included.
+            Property of Coterie Group. All Rights Reserved.
         </p>
         {/* <div className='Right-material'>
             <p id='user-name'>{props.name}</p>  
