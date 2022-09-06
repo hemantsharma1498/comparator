@@ -1,10 +1,11 @@
 import React from 'react'
 
-function sidebar() {
+function sidebar(props) {
   return (
     <div>
-        Favourites:
-        hey bitch
+        <heading>
+            Favourites:
+        </heading>
     </div>
   )
 }

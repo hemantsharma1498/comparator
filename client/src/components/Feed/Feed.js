@@ -1,7 +1,7 @@
 import React from 'react'
 import sidebar from '../secondaryComponents/sidebar'
 
-function Feed() {
+function Feed(props) {
   return (
     <section className="flex justify-center h-[788px] w-full">
       {/* FAVOURITE TOPICS */}
